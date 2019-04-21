@@ -8,7 +8,7 @@ class Skills extends Component{
             
             <div className="flex-container" id="container-skills" style={{backgroundImage: 'url(images/background/skills_bg.png)'}} >
 
-            <div className="every-skill-box" data-aos="fade-up-right" data-aos-duration="3000" id="programming-language" >
+            <div className="every-skill-box" data-aos="fade-up"  id="programming-language" >
                 <h2 className="skills-title programlanguage" id="program-lang">Programming Language</h2>
                 <ul className="skill-list">
                     <li>HTML - CSS</li>
@@ -17,7 +17,7 @@ class Skills extends Component{
                     <li>Python</li>
                   </ul>
             </div>
-            <div className="every-skill-box" data-aos="fade-down-right" data-aos-duration="3000" id="tools-library">
+            <div className="every-skill-box" data-aos="fade-up"  id="tools-library">
                 <h2 className="skills-title toolslib" id="tools-lib">Tools and Library</h2>
                 <ul className="skill-list">
                     <li>Git</li>
@@ -31,13 +31,13 @@ class Skills extends Component{
                     <li>Redux</li>
                   </ul>
             </div>
-            <div className="every-skill-box" data-aos="fade-down-left" data-aos-duration="3000" id="softwares">
+            <div className="every-skill-box" data-aos="fade-up"  id="softwares">
                 <h2 className="skills-title softwaretitle" id="titlesoftwares">Softwares</h2>
                 <ul className="skill-list">
                     <li>Adobe XD</li>
                   </ul>
             </div>
-            <div className="every-skill-box" data-aos="fade-up-left" data-aos-duration="3000" id="human-language">
+            <div className="every-skill-box" data-aos="fade-up"  id="human-language">
                 <h2 className="skills-title humlangtitle" id="language">Human Language</h2>
                 <ul className="skill-list">
                     <li>English</li>

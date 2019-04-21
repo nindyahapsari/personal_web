@@ -78,8 +78,8 @@ function init() {
         
         <div id="wrapper-website">
     <div className="container-fluid" id="home-container" style={{backgroundImage: 'url(images/background/landing_bg.png)'}} >
-      <h1 className="animated bounceInLeft" id="header-name">Nindya Hapsari</h1>
-  <nav className="navbar navbar-light animated bounceInDown" id="navbar">
+      <h1 className="" data-aos="fade-up" id="header-name">Nindya Hapsari</h1>
+  <nav className="navbar navbar-light" id="navbar" data-aos="fade-up">
     <div id="container-nav-menu">
       <span id="nav-home">
         <a href="#container-skills" id="nav-skills-btn" >
