@@ -77,7 +77,7 @@ function init() {
         return(
         
         <div id="wrapper-website">
-    <div className="container-fluid" id="home-container" style={{backgroundImage: 'url(images/background/landing_bg.png)'}} >
+    <div className="container-fluid" id="home-container" style={{backgroundImage: 'url(images/background/homepage_bg.png)'}} >
       <h1 className="" data-aos="fade-up" id="header-name">Nindya Hapsari</h1>
   <nav className="navbar navbar-light" id="navbar" data-aos="fade-up">
     <div id="container-nav-menu">
