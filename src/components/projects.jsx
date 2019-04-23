@@ -6,7 +6,6 @@ import rqm from '../asset/Screenshot-rqm.png';
 import bubtea from '../asset/pict_1.png';
 import landing from '../asset/landingpageScreenshot.png';
 import drum from '../asset/drum_machine.png';
-import portfolio from '../asset/portfolio.gif';
 
 
 
@@ -20,72 +19,64 @@ class Projects extends Component{
 
         <div className="container-work" id="container-work" style={{backgroundImage: 'url(images/background/project_bg.png)'}}>
 
-            <h1  id="project-head"><i className="fa fa-laptop-code" style={{fontSize: '3vw'}}></i>Projects</h1>
+            <h1 data-aos="fade-up" id="project-head"><i className="fa fa-laptop-code" style={{fontSize: '3vw'}}></i>Projects</h1>
 
-            <div  className="card-wrapper" id="card-wrapper">
+            <div  className="card-wrapper" id="card-wrapper" data-aos="fade-up">
                 
                 
-                <div className="project-card weather" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+                <div className="project-card weather">
                     <a href="https://github.com/nindyahapsari/WeatherApp_Sunshine" target="_blank" rel="noopener noreferrer">
-                        <img className="project-img" id="weatherapp" src={weather} alt="weather app screenshot" style={{width: 200, height: 400}} />
+                        <img className="project-img" id="weatherapp" src={weather} alt="weather app screenshot" style={{width: 100, height: 200}} />
                         </a>
-                        <span className="project-text" id="weatherapptext" >Weather App <br/> Android </span>
+                        <div className="project-text" id="weatherapptext" >Weather App <br/> Android </div>
                 </div>
 
 
 
-                <div className="project-card todo" data-aos="fade-left" data-aos-offset="300" data-aos-duration="500" >
-                    <span className="project-text todotxt" id="todoapptext">To-do App <br/> Android</span>
+                <div className="project-card todo">
                     <a href="https://github.com/nindyahapsari/Todo_List" target="_blank" rel="noopener noreferrer">
-                    <img className="project-img" id="todoapp" src={todo} alt="todo app screenshot" style={{width: 300, height: 400}}/>
-                        
+                    <img className="project-img" id="todoapp" src={todo} alt="todo app screenshot" style={{width: 150, height: 200}}/>
+                    <div className="project-text todotxt" id="todoapptext">To-do App <br/> Android</div>
                         </a>
                         
                 </div>
             
             
-                <div className="project-card plant" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div className="project-card plant">
                     <a href="https://github.com/nindyahapsari/plants-id" target="_blank" rel="noopener noreferrer">
-                        <img className="project-img" id="plantapp" src={plantapp} style={{width: 400, height: 400}}  alt="plant detector app screenshot"/>
-                        <span className="project-text plant" id="plantdetectapptext">Plant Detector App <br/> Android</span>
+                        <img className="project-img" id="plantapp" src={plantapp} style={{width: 200, height: 200}}  alt="plant detector app screenshot"/>
+                        <div className="project-text plant" id="plantdetectapptext">Plant Detector App <br/> Android</div>
                         </a>
                 </div>
             
-                <div className="project-card" data-aos="fade-left" data-aos-offset="300" data-aos-duration="500">
+                <div className="project-card">
                     <a href="https://github.com/nindyahapsari/personal_website" target="_blank" rel="noopener noreferrer">
-                        <img className="project-img" id="website" src={landing} style={{width: 600, height: 400}} alt="personal website screenshot"/>
+                        <img className="project-img" id="website" src={landing} style={{width: 300, height: 190}} alt="personal website screenshot"/>
                         <div className="project-text personal" id="personalwebtext">Personal Website <br/> HTML CSS JS</div>
                         </a>
                 </div>
 
             
-                <div className="project-card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div className="project-card">
                     <a href="https://github.com/nindyahapsari/BubTeaApp" target="_blank" rel="noopener noreferrer">
-                        <img className="project-img" id="bubbleteaapp" src={bubtea} style={{width: 240, height: 400}} alt="bubbletea app screenshot"/>
+                        <img className="project-img" id="bubbleteaapp" src={bubtea} style={{width: 100, height: 200}} alt="bubbletea app screenshot"/>
                         <div className="project-text bubtea" id="bubteaapptext">Ordering Bubble Tea App <br/> Android</div>
                         </a>
                 </div>
             
             
-                <div className="project-card" data-aos="fade-left" data-aos-offset="300" data-aos-duration="500">
+                <div className="project-card">
                     <a href="https://github.com/nindyahapsari/random_quote_machine" target="_blank" rel="noopener noreferrer">
-                        <img className="project-img" id="rqm" src={rqm} style={{width: 600, height: 350}} alt="random quote machine screenshot"/>
+                        <img className="project-img" id="rqm" src={rqm} style={{width: 300, height: 170}} alt="random quote machine screenshot"/>
                         <div className="project-text " id="rqmtext">Random Quote Machine <br/> HTML CSS JS</div>
                         </a> 
                 </div>
 
-                <div className="project-card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div className="project-card">
                     <a href="https://codepen.io/nindyahapsari/full/xewbzr" target="_blank" rel="noopener noreferrer" >
-                        <img className="project-img" id="drum_machine" src={drum} style={{width: 500, height: 300}} alt="personal website screenshot"/>
+                        <img className="project-img" id="drum_machine" src={drum} style={{width: 300, height: 150}} alt="personal website screenshot"/>
                         <div className="project-text" id="dmtext">Drum Machine<br/> HTML CSS JS </div>
                         </a>
-                </div>
-
-                <div className="project-card" data-aos="fade-left" data-aos-offset="300" data-aos-duration="500">
-                    <a href="https://github.com/nindyahapsari/personal_web" target="_blank" rel="noopener noreferrer">
-                        <img className="project-img" id="portfolio" src={portfolio} style={{width: 600, height: 350}} alt="update portfolio"/>
-                        <div className="project-text " id="portfoliotext">Update Personal Website <br/> HTML CSS JS React</div>
-                        </a> 
                 </div>
 
             </div>

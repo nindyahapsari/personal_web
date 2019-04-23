@@ -13,32 +13,32 @@ class Achievement extends Component{
 
             <div id="container-cert" style={{ backgroundImage: 'url(images/background/cert_bg.png)' }}>
 
-            <h1 data-aos="fade-down"  data-aos-duration="2000" id="cert-head"><i className="fas fa-graduation-cap" style={{fontSize: '2.5vw'}}></i>Achievements</h1>
+            <h1 data-aos="fade-up" id="cert-head"><i className="fas fa-graduation-cap" style={{fontSize: '2.5vw'}}></i>Achievements</h1>
           
-          <div className="cert-holder">
+          <div className="cert-holder" data-aos="fade-up">
     
-            <div data-aos="flip-up" data-aos-duration="2000" className="freecodecamp">
+            <div  data-aos-duration="2000" className="freecodecamp">
               <figure>
                 <a href={fcc} data-lightbox="mygallery">
                   <img className="cert-img" src={fcc} width="370" height="228" alt="front-end-library-certificate"/>
                 </a>
               </figure>
             </div>
-            <div data-aos="flip-up" data-aos-duration="2000" className="sandiego">
+            <div data-aos-duration="2000" className="sandiego">
                 <figure>
                   <a href={dsc} data-lightbox="mygallery">
                     <img className="cert-img" src={dsc} width="370" height="280" alt="data-structure-certificate" />
                   </a>
                 </figure>
               </div>
-              <div data-aos="flip-up" data-aos-duration="2000" className="duke">
+              <div  data-aos-duration="2000" className="duke">
                   <figure>
                    <a href={popc} data-lightbox="mygallery">
                      <img className="cert-img" src={popc} width="370" height="280" alt="principal-of-programming-cert" />
                     </a>
                   </figure>
                 </div>
-                <div data-aos="flip-up" data-aos-duration="2000" className="standford">
+                <div  data-aos-duration="2000" className="standford">
                     <figure>
                     <a href={ml} data-lightbox="mygallery" >
                       <img className="cert-img" src={ml} width="370" height="280" alt="machine-learning"/>
