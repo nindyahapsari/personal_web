@@ -714,10 +714,8 @@ ul {
    }
 
    .skills-title {
-      font-size: 2vw;
-      font-weight: bold;
-      margin: 10px;
-      font-family: 'Karla', sans-serif;
+      font-size: 10px;
+      padding-left: 30px;
    }
    
    .every-skill-box {
@@ -737,40 +735,21 @@ ul {
    }
    
    .skill-list {
-      font-size: 1.5vw;
-      font-weight: bold;
-      text-align: center;
-      padding-right: 32px;
-      color: black;
-      font-family: 'Karla', sans-serif;
+      font-size: 8px;
    }
 
    /* work */
-   .container-work{ 
-      background-size: cover; 
-      width: 20vw;
-      min-height: 100vh;
-   }
 
    .project-card{
       position: relative;
       width: 300px;
       height: 300px;
-      margin-left: 50px;
    }
    
-   #project-head {
-      margin-left: 170px;
-      
-   }
    
    #card-wrapper {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding-bottom: 100px;
+      box-direction: column;
    }
 
    #weatherapp{
@@ -799,14 +778,7 @@ ul {
       display: flex;
       flex-flow: column;
       left: 0;
-      
-   }
-
-   .cert-img{
-      width: 250px;
-      height: 150px;
-      
-
+      right: 0;
    }
    
    
