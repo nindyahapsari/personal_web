@@ -1,0 +1,240 @@
+.pro1 {
+  position: absolute;
+  left: 15em;
+  margin-top: -10em;
+  z-index: -2;
+}
+.pro2 {
+  position: absolute;
+  left: 40em;
+  margin-top: 50em;
+  z-index: -2;
+}
+.pro3 {
+  position: absolute;
+  right: 30em;
+  margin-top: -25em;
+  z-index: -2;
+}
+.pro4 {
+  position: absolute;
+  right: 20em;
+  margin-top: 50em;
+  z-index: -2;
+}
+
+#project-head {
+  position: absolute;
+  transform: rotate(90deg);
+  right: -1em;
+  margin-top: 4em;
+  font-family: "Karla", sans-serif;
+  font-size: 3.5em;
+  font-weight: bold;
+  z-index: -2;
+}
+
+/* project section */
+
+.container-work {
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#card-wrapper {
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.project-card {
+  position: relative;
+  background: #f7e378;
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 10px 10px 5px;
+  overflow: hidden;
+}
+
+.project-text {
+  font-family: "Karla", sans-serif;
+  color: black;
+  position: absolute;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+#githubProject {
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-size: 80px;
+  color: black;
+  border-style: solid;
+  border-width: medium;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.project-card:hover .overlay {
+  background-color: rgba(225, 225, 225, 0.7);
+  opacity: 1;
+}
+
+.click {
+  font-size: 20px;
+  margin-top: 150px;
+  color: black;
+  text-decoration: none;
+  opacity: 0;
+}
+
+.project-card:hover #githubProject {
+  opacity: 1;
+}
+
+.project-card:hover .click {
+  opacity: 1;
+}
+
+.project-img {
+  overflow: hidden;
+}
+
+.project-card:hover .project-img {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+
+#weatherapp {
+  margin-top: 20px;
+}
+
+#todoapp {
+  margin-top: 20px;
+}
+
+#plantapp {
+  margin-top: 20px;
+}
+
+#bubbleteaapp {
+  margin-top: 20px;
+}
+
+#website {
+  margin-top: 20px;
+  box-shadow: 10px 10px 5px black;
+}
+
+#rqm {
+  margin-top: 30px;
+}
+
+#drum_machine {
+  margin-top: 50px;
+}
+
+/* project caption text  */
+
+#weatherapptext {
+  display: flex;
+  background: #f8faff;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  font-size: 25px;
+  padding-left: 100px;
+}
+
+#todoapptext {
+  display: flex;
+  background: #f8faff;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  font-size: 25px;
+  padding-left: 100px;
+}
+
+#personalwebtext {
+  display: flex;
+  background: #f8faff;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  font-size: 25px;
+  padding-left: 80px;
+}
+
+#dmtext {
+  display: flex;
+  background: #f8faff;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  font-size: 25px;
+  padding-left: 95px;
+}
+
+#bubteaapptext {
+  display: flex;
+  background: #f8faff;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  font-size: 25px;
+  padding-left: 40px;
+}
+
+#plantdetectapptext {
+  display: flex;
+  background: #f8faff;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  font-size: 25px;
+  padding-left: 70px;
+}
+
+#rqmtext {
+  display: flex;
+  background: #f8faff;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  font-size: 25px;
+  padding-left: 40px;
+}
+
+/* end project caption text */
+
+/* end Project page */

@@ -10,14 +10,14 @@
   position: absolute;
   top: 90em;
   left: 5em;
-  z-index: -2;
+  z-index: -10;
 }
 
 .skills2 {
   position: absolute;
   top: 90em;
   left: 20em;
-  z-index: -2;
+  z-index: 1;
 }
 .skills3 {
   position: absolute;
@@ -32,15 +32,28 @@
   z-index: -1;
 }
 
+.skills-head {
+  position: absolute;
+  transform: rotate(90deg);
+  right: 0em;
+  margin-top: 20em;
+  font-family: "Karla", sans-serif;
+  font-size: 3.5em;
+  font-weight: bold;
+  z-index: -2;
+}
+
 h2 {
   font-family: "Karla", sans-serif;
   font-weight: bold;
   font-size: 3em;
+  z-index: 1;
 }
 
 h3 {
   font-family: "Karla", sans-serif;
   font-size: 3em;
+  z-index: 1;
 }
 
 .skill-title {
@@ -48,8 +61,9 @@ h3 {
   text-align: left;
   font-size: 4em;
   font-weight: bold;
-  left: 7em;
+  left: 5em;
   top: 27em;
+  z-index: 1;
 }
 
 .frontend {
@@ -57,6 +71,7 @@ h3 {
   text-align: left;
   right: 7em;
   top: 90em;
+  z-index: 1;
 }
 
 .mobile {
@@ -64,16 +79,19 @@ h3 {
   text-align: left;
   right: 41em;
   top: 99em;
+  z-index: 1;
 }
 .tools {
   position: absolute;
   text-align: left;
   right: 18.3em;
   top: 108em;
+  z-index: 1;
 }
 .language {
   position: absolute;
   text-align: left;
   right: 31em;
   top: 117em;
+  z-index: 1;
 }

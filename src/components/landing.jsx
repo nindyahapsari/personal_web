@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from "reactstrap";
+
 import "../css/landing.css";
 
 class Landing extends Component {
@@ -72,7 +72,7 @@ class Landing extends Component {
     return (
       <div id="wrapper-website">
         <div className="container-fluid" id="home-container">
-          <h1 className="scrolling">keep scrolling</h1>
+         
           <h1 className="" id="header-name">
             Nindya Hapsari
           </h1>
@@ -100,15 +100,7 @@ class Landing extends Component {
               </span>
             </div>
           </nav>
-          <img src="shapes/landing/1.png" className="shape1" alt="" />
-          <img src="shapes/landing/2.png" className="shape2" alt="" />
-          <img src="shapes/landing/3.png" className="shape3" alt="" />
-          <img src="shapes/landing/4.png" className="shape4" alt="" />
-          <img src="shapes/landing/5.png" className="shape5" alt="" />
-          <img src="shapes/landing/6.png" className="shape6" alt="" />
-          <img src="shapes/landing/7.png" className="shape7" alt="" />
 
-          <img src="shapes/landing/8.png" className="shape8" alt="" />
           <div className="container-fluid" id="welcome-text">
             <h2 className="" id="hello-text">
               Hello! I'm an aspiring software developer

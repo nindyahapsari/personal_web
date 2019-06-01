@@ -35,3 +35,68 @@
     <li>German</li>
   </ul>
 </div>
+
+
+
+
+
+
+
+
+// certificates
+
+
+<div data-aos-duration="2000" className="freecodecamp">
+          <figure>
+            <a href={fcc}>
+              <img
+                className="cert-img"
+                src={fcc}
+                width="370"
+                height="228"
+                alt="front-end-library-certificate"
+              />
+            </a>
+          </figure>
+        </div>
+        <div data-aos-duration="2000" className="sandiego">
+          <figure>
+            <a href={dsc} data-lightbox="mygallery">
+              <img
+                className="cert-img"
+                src={dsc}
+                width="370"
+                height="280"
+                alt="data-structure-certificate"
+              />
+            </a>
+          </figure>
+        </div>
+        <div data-aos-duration="2000" className="duke">
+          <figure>
+            <a href={popc} data-lightbox="mygallery">
+              <img
+                className="cert-img"
+                src={popc}
+                width="370"
+                height="280"
+                alt="principal-of-programming-cert"
+              />
+            </a>
+          </figure>
+        </div>
+        <div data-aos-duration="2000" className="standford">
+          <figure>
+            <a href={ml} data-lightbox="mygallery">
+              <img
+                className="cert-img"
+                src={ml}
+                width="370"
+                height="280"
+                alt="machine-learning"
+              />
+            </a>
+          </figure>
+        </div>
+
+

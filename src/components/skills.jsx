@@ -5,10 +5,6 @@ class Skills extends Component {
   render() {
     return (
       <div className="container-skills">
-        <img className="skills1" src="shapes/skills/1.png" alt="" />
-        <img className="skills2" src="shapes/skills/2.png" alt="" />
-        <img className="skills3" src="shapes/skills/3.png" alt="" />
-        <img className="skills4" src="shapes/skills/4.png" alt="" />
         <h1 className="skill-title">WHAT CAN I DO</h1>
         <div className="frontend">
           <h2>Front-end development</h2>

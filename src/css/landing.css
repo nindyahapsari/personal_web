@@ -2,7 +2,7 @@
   position: absolute;
   left: 0em;
   top: 2em;
-  z-index: -2;
+  z-index: -1;
 }
 .shape2 {
   position: absolute;
@@ -32,13 +32,13 @@
   position: absolute;
   right: 7em;
   bottom: 2em;
-  z-index: -2;
+  z-index: 1;
 }
 .shape7 {
   position: absolute;
   left: 15em;
   bottom: 7em;
-  z-index: -2;
+  z-index: 1;
 }
 .shape8 {
   position: absolute;
@@ -60,8 +60,9 @@
 }
 
 #navbar {
-  position: fixed;
+  position: fixed !important;
   top: 5vh;
+  z-index: 1;
 }
 
 #header-name {
@@ -71,6 +72,7 @@
   font-size: 30px;
   padding: 30px;
   font-family: "Karla", sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 #nav-skills-btn {
@@ -80,6 +82,7 @@
   color: black;
   padding: 35px;
   font-family: "Karla", sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 #nav-work-btn {
@@ -88,6 +91,7 @@
   color: black;
   padding: 35px;
   font-family: "Karla", sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 #nav-cert-btn {
@@ -96,6 +100,7 @@
   color: black;
   padding: 35px;
   font-family: "Karla", sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 #nav-contact-btn {
@@ -104,6 +109,7 @@
   color: black;
   padding: 35px;
   font-family: "Karla", sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 #welcome-text {
@@ -119,14 +125,17 @@
 #hello-text {
   font-size: 40px;
   font-family: "Karla", sans-serif;
+  z-index: 1;
 }
 #focus-text {
   font-size: 30px;
   font-family: "Karla", sans-serif;
+  z-index: 1;
 }
 
 #based-text {
   font-family: "Karla", sans-serif;
+  z-index: 1;
 }
 
 .scrolling {
