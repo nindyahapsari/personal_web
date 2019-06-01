@@ -1,55 +1,34 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import "../css/skills.css";
 
-
-class Skills extends Component{
-
-    render(){
-        return(
-            
-            <div className="flex-container" id="container-skills" style={{backgroundImage: 'url(images/background/skills_bg.png)'}} >
-
-            <div className="every-skill-box" data-aos="fade-up"  id="programming-language" >
-                <h2 className="skills-title programlanguage" id="program-lang">Programming Language</h2>
-                <ul className="skill-list">
-                    <li>HTML - CSS</li>
-                    <li>Java Script</li>
-                    <li>Java</li>
-                    <li>Python</li>
-                  </ul>
-            </div>
-            <div className="every-skill-box" data-aos="fade-up"  id="tools-library">
-                <h2 className="skills-title toolslib" id="tools-lib">Tools and Library</h2>
-                <ul className="skill-list">
-                    <li>Git</li>
-                    <li>VScode</li>
-                    <li>Android Studio</li>
-                    <li>CodePen.io</li>
-                    <li>Bootstrap</li>
-                    <li>Sass</li>
-                    <li>JQuery</li>
-                    <li>React + React Native</li>
-                    <li>Redux</li>
-                  </ul>
-            </div>
-            <div className="every-skill-box" data-aos="fade-up"  id="softwares">
-                <h2 className="skills-title softwaretitle" id="titlesoftwares">Softwares</h2>
-                <ul className="skill-list">
-                    <li>Adobe XD</li>
-                  </ul>
-            </div>
-            <div className="every-skill-box" data-aos="fade-up"  id="human-language">
-                <h2 className="skills-title humlangtitle" id="language">Human Language</h2>
-                <ul className="skill-list">
-                    <li>English</li>
-                    <li>Indonesian</li>
-                    <li>German</li>
-                  </ul>
-            </div>
-            
-          </div>  
-        );
-    }
+class Skills extends Component {
+  render() {
+    return (
+      <div className="container-skills">
+        <img className="skills1" src="shapes/skills/1.png" alt="" />
+        <img className="skills2" src="shapes/skills/2.png" alt="" />
+        <img className="skills3" src="shapes/skills/3.png" alt="" />
+        <img className="skills4" src="shapes/skills/4.png" alt="" />
+        <h1 className="skill-title">WHAT CAN I DO</h1>
+        <div className="frontend">
+          <h2>Front-end development</h2>
+          <h3>Sass, Bootstrap, jQuery, React, Redux, Angular</h3>
+        </div>
+        <div className="mobile">
+          <h2>Mobile development</h2>
+          <h3>React Native, Android</h3>
+        </div>
+        <div className="tools">
+          <h2>Tools</h2>
+          <h3>Git, VSCode, Android Studio, Adobe XD</h3>
+        </div>
+        <div className="language">
+          <h2>Human Language</h2>
+          <h3>English, Indonesian, German</h3>
+        </div>
+      </div>
+    );
+  }
 }
-
 
 export default Skills;

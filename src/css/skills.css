@@ -1,0 +1,79 @@
+/* skills section */
+
+.container-skills {
+  background-size: cover;
+  min-height: 115vh;
+  width: 100%;
+}
+
+.skills1 {
+  position: absolute;
+  top: 90em;
+  left: 5em;
+  z-index: -2;
+}
+
+.skills2 {
+  position: absolute;
+  top: 90em;
+  left: 20em;
+  z-index: -2;
+}
+.skills3 {
+  position: absolute;
+  top: 100em;
+  right: 20em;
+  z-index: -2;
+}
+.skills4 {
+  position: absolute;
+  top: 120em;
+  right: 7em;
+  z-index: -1;
+}
+
+h2 {
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+h3 {
+  font-family: "Karla", sans-serif;
+  font-size: 3em;
+}
+
+.skill-title {
+  position: absolute;
+  text-align: left;
+  font-size: 4em;
+  font-weight: bold;
+  left: 7em;
+  top: 27em;
+}
+
+.frontend {
+  position: absolute;
+  text-align: left;
+  right: 7em;
+  top: 90em;
+}
+
+.mobile {
+  position: absolute;
+  text-align: left;
+  right: 41em;
+  top: 99em;
+}
+.tools {
+  position: absolute;
+  text-align: left;
+  right: 18.3em;
+  top: 108em;
+}
+.language {
+  position: absolute;
+  text-align: left;
+  right: 31em;
+  top: 117em;
+}
