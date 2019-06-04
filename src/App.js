@@ -41,6 +41,7 @@ class App extends Component {
             </ParallaxLayer>
 
             {/* Skills shape  */}
+
             <ParallaxLayer offset={0} speed={0} style={{ opacity: 0.7 }}>
               <img className="skills1" src="shapes/skills/1.png" alt="" />
             </ParallaxLayer>

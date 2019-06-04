@@ -41,14 +41,15 @@ class Projects extends Component {
                 <CardSubtitle className="projtype">Type: Android</CardSubtitle>
 
                 <CardText className="projdes">
-                  Concept: Easy to use light weight android app. This app is
-                  intergrated with SQLite and Weather API
+                  Easy to use light weight android app. This app is intergrated
+                  with SQLite and Weather API
                 </CardText>
-                <Button outline color="primary" className="btnproj">
+                <Button outline color="secondary" className="btnproj">
                   <a
                     href="https://github.com/nindyahapsari/WeatherApp_Sunshine"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="projlink"
                   >
                     <i className="fab fa-github" id="githubProject" />
                     <p className="click">click for source code</p>
@@ -69,15 +70,19 @@ class Projects extends Component {
               </Container>
               <CardBody className="project-text">
                 <CardTitle className="projtitle todotxt" id="todoapptext">
-                  To-do App{" "}
+                  To-do App
                 </CardTitle>
                 <CardSubtitle>Type: Android</CardSubtitle>
-                <CardText>Put text here</CardText>
-                <Button outline color="primary">
+                <CardText>
+                  A clone To-do app that is easy to use for day-to-day task.
+                  This app is intergrated with SQLite
+                </CardText>
+                <Button outline color="secondary" className="btnproj">
                   <a
                     href="https://github.com/nindyahapsari/Todo_List"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="projlink"
                   >
                     <i className="fab fa-github" id="githubProject" />
                     <p className="click">click for source code</p>
@@ -99,12 +104,16 @@ class Projects extends Component {
               <CardBody className="project-text">
                 <CardTitle className="projtitle">Plant App</CardTitle>
                 <CardSubtitle>Type: Android</CardSubtitle>
-                <CardText>Put Text Here</CardText>
-                <Button outline color="primary">
+                <CardText>
+                  Android App that can detect plants. This app intergrated with
+                  tensorflow
+                </CardText>
+                <Button outline color="secondary" className="btnproj">
                   <a
                     href="https://github.com/nindyahapsari/plants-id"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="projlink"
                   >
                     <i className="fab fa-github" id="githubProject" />
                     <p className="click">click for source code</p>
@@ -126,12 +135,16 @@ class Projects extends Component {
               <CardBody className="project-text">
                 <CardTitle className="projtitle">Personal Website</CardTitle>
                 <CardSubtitle>Type: Website</CardSubtitle>
-                <CardText> Put text Here</CardText>
-                <Button outline color="primary" className="overlay">
+                <CardText>
+                  Personal Website built with HTML, CSS, React JS. Design using
+                  AdobeXD
+                </CardText>
+                <Button outline color="secondary" className="btnproj">
                   <a
                     href="https://github.com/nindyahapsari/personal_web"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="projlink"
                   >
                     <i className="fab fa-github" id="githubProject" />
                     <p className="click">click for source code</p>
@@ -153,12 +166,16 @@ class Projects extends Component {
               <CardBody className="project-text">
                 <CardTitle className="projtitle">Bubble Tea App</CardTitle>
                 <CardSubtitle>Type: Android App</CardSubtitle>
-                <CardText> Put text Here</CardText>
-                <Button className="overlay">
+                <CardText>
+                  An online ordering app. This app is intergrated with Firebase
+                  (Databse), Paypal
+                </CardText>
+                <Button outline color="secondary" className="btnproj">
                   <a
                     href="https://github.com/nindyahapsari/BubTeaApp"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="projlink"
                   >
                     <i className="fab fa-github" id="githubProject" />
                     <p className="click">click for source code</p>
@@ -181,13 +198,14 @@ class Projects extends Component {
                   Random Quote Machine
                 </CardTitle>
                 <CardSubtitle>Type: Website</CardSubtitle>
-                <CardText> Put text Here</CardText>
+                <CardText />
 
-                <Button className="overlay">
+                <Button outline color="secondary" className="btnproj">
                   <a
                     href="https://github.com/nindyahapsari/random_quote_machine"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="projlink"
                   >
                     <i class="fab fa-github" id="githubProject" />
                     <p className="click">click for source code</p>
@@ -208,13 +226,16 @@ class Projects extends Component {
               <CardBody className="project-text">
                 <CardTitle className="projtitle">Drum Machine</CardTitle>
                 <CardSubtitle>Type: Website</CardSubtitle>
-                <CardText> Put text Here</CardText>
+                <CardText>
+                  A fun drum machine app that was build using React
+                </CardText>
 
-                <Button outline color="primary" className="overlay">
+                <Button outline color="secondary" className="btnproj">
                   <a
                     href="https://codepen.io/nindyahapsari/full/xewbzr"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="projlink"
                   >
                     <i className="fab fa-github" id="githubProject" />
                     <p className="click">click for source code</p>

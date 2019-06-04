@@ -5,17 +5,7 @@ import dsc from "../asset/cert/ucsandiego.jpg";
 import popc from "../asset/cert/duke.jpg";
 import ml from "../asset/cert/standford.jpg";
 import "../css/achievement.css";
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  CardBody,
-  Button,
-  CardTitle,
-  CardText,
-  CardImg
-} from "reactstrap";
+import { Container, Row, Col, CardImg } from "reactstrap";
 
 class Achievement extends Component {
   render() {

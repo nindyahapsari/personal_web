@@ -69,7 +69,7 @@ h3 {
 .frontend {
   position: absolute;
   text-align: left;
-  right: 7em;
+  right: 5.5em;
   top: 90em;
   z-index: 1;
 }
@@ -77,21 +77,21 @@ h3 {
 .mobile {
   position: absolute;
   text-align: left;
-  right: 41em;
+  right: 39em;
   top: 99em;
   z-index: 1;
 }
 .tools {
   position: absolute;
   text-align: left;
-  right: 18.3em;
+  right: 17em;
   top: 108em;
   z-index: 1;
 }
 .language {
   position: absolute;
   text-align: left;
-  right: 31em;
+  right: 30em;
   top: 117em;
   z-index: 1;
 }

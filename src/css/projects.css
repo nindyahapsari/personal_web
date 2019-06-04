@@ -92,6 +92,20 @@
   font-size: 2em;
 }
 
+.btnproj {
+  border-radius: 15px;
+}
+
+.projlink {
+  color: black;
+  font-weight: bold;
+}
+
+.projlink:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 #weatherapptext {
 }
 

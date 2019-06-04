@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../css/skills.css";
-import { Container, Row, Col } from "reactstrap";
+import { Container } from "reactstrap";
 
 class Skills extends Component {
   render() {
