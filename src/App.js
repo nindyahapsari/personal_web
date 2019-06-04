@@ -92,7 +92,7 @@ class App extends Component {
             <ParallaxLayer offset={2.5} speed={-0.5} style={{ opacity: 1 }}>
               <h1 id="project-head">Projects</h1>
             </ParallaxLayer>
-            <ParallaxLayer offset={4.5} speed={-0.5} style={{ opacity: 1 }}>
+            <ParallaxLayer offset={4.3} speed={-0.5} style={{ opacity: 1 }}>
               <h1 id="cert-head">Achievements</h1>
             </ParallaxLayer>
 

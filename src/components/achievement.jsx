@@ -5,7 +5,17 @@ import dsc from "../asset/cert/ucsandiego.jpg";
 import popc from "../asset/cert/duke.jpg";
 import ml from "../asset/cert/standford.jpg";
 import "../css/achievement.css";
-import { Container, Row, Col } from "reactstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Card,
+  CardBody,
+  Button,
+  CardTitle,
+  CardText,
+  CardImg
+} from "reactstrap";
 
 class Achievement extends Component {
   render() {
@@ -13,80 +23,62 @@ class Achievement extends Component {
       <div id="container-cert">
         <Container>
           <Row>
-            <Col sx="6">
-              <div className="freecodecampjs">
-                <figure>
-                  <a href={fcc2}>
-                    <img
-                      className="cert-img"
-                      src={fcc2}
-                      width="370"
-                      height="228"
-                      alt="javascript-library-certificate"
-                    />
-                  </a>
-                </figure>
-              </div>
+            <Col sm="4" className="freecodecampjs">
+              <a href={fcc2}>
+                <CardImg
+                  className="cert-img fccjs"
+                  src={fcc2}
+                  alt="javascript-library-certificate"
+                />
+              </a>
             </Col>
-            <Col sx="6">
-              <div className="freecodecamp">
-                <figure>
-                  <a href={fcc}>
-                    <img
-                      className="cert-img"
-                      src={fcc}
-                      width="370"
-                      height="228"
-                      alt="front-end-library-certificate"
-                    />
-                  </a>
-                </figure>
-              </div>
+
+            <Col sm="4" className="freecodecamp">
+              <a href={fcc}>
+                <Container>
+                  <CardImg
+                    className="cert-img fccfront"
+                    src={fcc}
+                    alt="front-end-library-certificate"
+                  />
+                </Container>
+              </a>
             </Col>
-            <Col sx="6">
-              <div className="sandiego">
-                <figure>
-                  <a href={dsc}>
-                    <img
-                      className="cert-img"
-                      src={dsc}
-                      width="370"
-                      height="280"
-                      alt="data-structure-certificate"
-                    />
-                  </a>
-                </figure>
-              </div>
+
+            <Col sm="4" className="sandiego">
+              <a href={dsc}>
+                <Container>
+                  <CardImg
+                    className="cert-img sandiegoimg"
+                    src={dsc}
+                    alt="data-structure-certificate"
+                  />
+                </Container>
+              </a>
             </Col>
-            <Col xs="6">
-              <div className="duke">
-                <figure>
-                  <a href={popc}>
-                    <img
-                      className="cert-img"
-                      src={popc}
-                      width="370"
-                      height="280"
-                      alt="principal-of-programming-cert"
-                    />
-                  </a>
-                </figure>
-              </div>
+
+            <Col sm="4" className="duke">
+              <a href={popc}>
+                <Container>
+                  <CardImg
+                    className="cert-img dukeimg"
+                    src={popc}
+                    alt="principal-of-programming-cert"
+                  />
+                </Container>
+              </a>
             </Col>
-            <Col xs="6">
-              <div className="standford">
-                <figure>
-                  <a href={ml}>
-                    <img
-                      className="cert-img"
-                      src={ml}
-                      width="370"
-                      height="280"
-                      alt="machine-learning"
-                    />
-                  </a>
-                </figure>
-              </div>
+
+            <Col sm="4" className="standford">
+              <a href={ml}>
+                <Container>
+                  <CardImg
+                    className="cert-img standfordimg"
+                    src={ml}
+                    alt="machine-learning"
+                  />
+                </Container>
+              </a>
             </Col>
           </Row>
         </Container>
