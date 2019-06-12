@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-
 import "../css/landing.css";
+import "../css/mobile-landing.css";
 
 class Landing extends Component {
   render() {
@@ -72,30 +72,30 @@ class Landing extends Component {
     return (
       <div id="wrapper-website">
         <div className="container-fluid" id="home-container">
-         
           <h1 className="" id="header-name">
             Nindya Hapsari
           </h1>
           <nav className="navbar navbar-light" id="navbar">
             <div id="container-nav-menu">
               <span id="nav-home">
-                <a href="#container-skills" id="nav-skills-btn">
-                  Skills
+                <a href="https://github.com/nindyahapsari" id="nav-skills-btn">
+                  Github
                 </a>
               </span>
               <span id="nav-work">
-                <a href="#container-work" id="nav-work-btn">
-                  My Work
+                <a
+                  href="https://www.linkedin.com/in/nindya-hapsari-a5000a153/"
+                  id="nav-work-btn"
+                >
+                  LinkedIn
                 </a>
               </span>
               <span id="nav-certificate">
-                <a href="#container-cert" id="nav-cert-btn">
-                  Certificate
-                </a>
-              </span>
-              <span id="nav-contact">
-                <a href="#footer" id="nav-contact-btn">
-                  Contact
+                <a
+                  href="https://www.instagram.com/butter_scotch/"
+                  id="nav-cert-btn"
+                >
+                  Instagram
                 </a>
               </span>
             </div>

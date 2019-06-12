@@ -1,0 +1,39 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .navbar {
+    visibility: hidden;
+  }
+
+  /* .navbar {
+    position: absolute;
+    display: flex;
+    border: 1px solid black;
+    width: 70%;
+    left: 3em;
+    top: em;
+    text-align: left;
+    
+  } */
+
+  /* #container-nav-menu {
+    position: relative;
+    width: 15em;
+    height: 10em;
+    left: 0;
+  } */
+
+  /* #container-nav-menu #nnav-skills-btn {
+    position: absolute;
+    left: 0em;
+    top: 10em;
+    bottom: 0;
+    font-size: 10em;
+  } */
+
+  /* #nav-work-btn,
+  #nav-cert-btn,
+  #nav-contact-btn {
+    position: relative;
+    left: 0;
+    font-size: 50em;
+  } */
+}

@@ -1,0 +1,108 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  /* Skills */
+
+  .img-container .photome {
+    position: relative;
+    left: 0em;
+    width: 250px;
+    height: 200px;
+  }
+
+  .abouttxtbox {
+    position: relative;
+    width: 35em;
+    height: 20em;
+    left: 0;
+    margin-top: -17em;
+  }
+
+  .abouthead {
+    position: relative;
+    margin-top: 0em;
+    font-size: 30px;
+  }
+
+  .abouttxtfirst {
+    position: relative;
+    margin-top: 0em;
+    font-size: 1.1em;
+  }
+
+  .abouttxtsecond {
+    position: relative;
+    margin-top: 0em;
+    font-size: 1.1em;
+  }
+
+  .stackstools {
+    position: relative;
+    left: 0;
+    margin-top: 1em;
+    width: 100%;
+  }
+
+  .frontend {
+    position: relative;
+    width: 100%;
+    height: 20em;
+    margin-top: 0em;
+    left: 0em;
+    font-size: 20px;
+  }
+
+  .frontend .animation-bar-frontend {
+    width: 100%;
+  }
+
+  .cms {
+    position: relative;
+    width: 100%;
+    height: 7em;
+    top: 0em;
+    left: 0em;
+    font-size: 20px;
+  }
+
+  .cms .animation-bar-cms {
+    width: 100%;
+  }
+
+  .mobile {
+    position: relative;
+    width: 100%;
+    height: 20em;
+    top: 0em;
+    left: 0;
+    font-size: 20px;
+  }
+
+  .mobile .animation-bar-mobile {
+    width: 100%;
+  }
+
+  .tools {
+    position: relative;
+    width: 100%;
+    height: 10em;
+    top: -6em;
+    left: 0;
+    font-size: 20px;
+  }
+
+  .tools .animation-bar-tools {
+    width: 100%;
+  }
+
+  .language {
+    position: relative;
+    width: 100%;
+    height: 10em;
+    top: -8em;
+    left: 0em;
+    font-size: 20px;
+  }
+
+  .language .animation-bar-language {
+    width: 100%;
+  }
+}

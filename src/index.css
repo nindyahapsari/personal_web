@@ -58,64 +58,6 @@ body {
     font-size: 2em !important;
   }
 
-  #nav-skills-btn,
-  #nav-work-btn,
-  #nav-cert-btn,
-  #nav-contact-btn {
-    visibility: hidden;
-  }
-
-  /* Skills */
-
-  .skill-title {
-    font-size: 2.5em !important;
-    position: absolute;
-    margin-left: -1em;
-    margin-top: 3em;
-  }
-
-  .frontend {
-    position: absolute;
-    margin-top: -9em;
-    left: 13em;
-  }
-
-  .mobile {
-    font-size: 1em;
-    position: absolute;
-    margin-top: -2em;
-    left: 13em;
-  }
-
-  .tools {
-    position: absolute;
-    left: 14em;
-    margin-top: 3em;
-  }
-
-  .language {
-    position: absolute;
-    margin-top: 13em;
-    left: 14em;
-  }
-
-  .frontendtxt {
-    font-size: 2em !important;
-    /* text-align: center;
-    margin-left: 5em; */
-  }
-
-  .mobiletxt {
-    font-size: 2em !important;
-  }
-
-  .toolstxt {
-    font-size: 2em !important;
-  }
-  .languagetxt {
-    font-size: 2em !important;
-  }
-
   /* Certficate */
 
   .fccjs,
