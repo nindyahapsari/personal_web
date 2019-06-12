@@ -17,8 +17,7 @@ class Skills extends Component {
             <h2 className="abouthead">Hi There!</h2>
             <p className="abouttxtfirst">
               I’m Nindya (neen-dee-yeaa). Sometimes people call me “nin” :D I’m
-              a passionate Frontend developer living in Cologne, Germany. I’m
-              originally from Indonesia (In case you are wondering).
+              a passionate Frontend developer living in Cologne, Germany.
             </p>
             <p className="abouttxtsecond">
               coming from technical background, i quickly jump into web
