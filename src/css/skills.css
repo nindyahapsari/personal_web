@@ -2,7 +2,8 @@
 
 .container-skills {
   background-size: cover;
-  min-height: 115vh;
+  /* min-height: 115vh; */
+  min-height: 250vh;
   width: 100%;
 }
 
@@ -46,52 +47,166 @@
 h2 {
   font-family: "Karla", sans-serif;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 1em;
   z-index: 1;
 }
 
 h3 {
   font-family: "Karla", sans-serif;
-  font-size: 3em;
+  font-size: 1em;
   z-index: 1;
 }
 
-.skill-title {
+.photome {
   position: absolute;
+  width: 50em;
+  height: 40em;
+  left: 10em;
+  margin-bottom: 20em;
+}
+
+.abouttxtbox {
+  /* border: 2px solid black; */
+  position: relative;
+  right: -90px;
+  top: 80px;
+  width: 500px;
+  height: 400px;
+}
+
+.abouthead {
+  font-family: "Karla", sans-serif;
+  font-size: 2em;
   text-align: left;
-  font-size: 4em;
-  font-weight: bold;
-  left: 5em;
-  top: 27em;
+}
+
+.abouttxtfirst {
+  font-family: "Karla", sans-serif;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.abouttxtsecond {
+  font-family: "Karla", sans-serif;
+  font-size: 1.5em;
+  text-align: left;
   z-index: 1;
+}
+
+.stackstools {
+  position: relative;
+  border: 1px solid black;
+  width: 30%;
+  padding: 0.5em;
+  left: 38vw;
+  top: 100px;
+}
+
+.stackstoolstxt {
+  font-family: "Karla", sans-serif;
+  font-size: 3em;
+  text-align: center;
 }
 
 .frontend {
-  position: absolute;
+  position: relative;
   text-align: left;
-  right: 5.5em;
-  top: 90em;
+  font-size: 2em;
+  left: 6em;
+  top: 200px;
+  z-index: 1;
+}
+
+.cms {
+  position: relative;
+  float: right;
+  text-align: left;
+  font-size: 2em;
+  right: 10em;
+  top: 150px;
   z-index: 1;
 }
 
 .mobile {
-  position: absolute;
+  position: relative;
   text-align: left;
-  right: 39em;
-  top: 99em;
+  font-size: 2em;
+  left: 6em;
+  top: 350px;
   z-index: 1;
 }
 .tools {
-  position: absolute;
+  position: relative;
   text-align: left;
-  right: 17em;
-  top: 108em;
+  float: right;
+  font-size: 2em;
+  right: 9em;
+  top: 290px;
   z-index: 1;
 }
 .language {
-  position: absolute;
+  position: relative;
   text-align: left;
-  right: 30em;
-  top: 117em;
+  font-size: 2em;
+  left: 6em;
+  top: 450px;
   z-index: 1;
+}
+
+.animation-bar-1 {
+  position: relative;
+  width: 37%;
+  display: block;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.8);
+}
+
+.animation-bar-1 span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+  background-color: #53d3e3;
+  background-size: 100%;
+  background-image: linear-gradient(to bottom, #f7e378, #ef7676);
+  animation: progress-bar-1 6s ease;
+}
+
+.animation-bar-1 span::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  background-size: 100%;
+  /* background-image: linear-gradient(
+    45deg,
+    #fff 25%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0) 75%,
+    #fff 50%,
+    #fff 75%,
+    rgba(0, 0, 0, 0)
+  ); */
+  background-size: 30px 30px;
+  opacity: 0.3;
+}
+
+@keyframes progress-bar-1 {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 50%;
+  }
 }
