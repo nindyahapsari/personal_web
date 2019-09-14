@@ -87,13 +87,13 @@ class App extends Component {
             <ParallaxLayer offset={0} speed={-1} style={{ opacity: 1 }}>
               <h1 className="scrolling">keep scrolling</h1>
             </ParallaxLayer>
-            <ParallaxLayer offset={0.6} speed={-0.2} style={{ opacity: 1 }}>
+            <ParallaxLayer offset={1} speed={-0.5} style={{ opacity: 1 }}>
               <h1 className="skills-head">About Me</h1>
             </ParallaxLayer>
-            <ParallaxLayer offset={3.5} speed={-0.5} style={{ opacity: 1 }}>
+            <ParallaxLayer offset={5.2} speed={-0.5} style={{ opacity: 1 }}>
               <h1 id="project-head">Projects</h1>
             </ParallaxLayer>
-            <ParallaxLayer offset={5.3} speed={-0.5} style={{ opacity: 1 }}>
+            <ParallaxLayer offset={7} speed={-0.5} style={{ opacity: 1 }}>
               <h1 id="cert-head">Achievements</h1>
             </ParallaxLayer>
 

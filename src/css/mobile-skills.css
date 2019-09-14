@@ -105,4 +105,22 @@
   .language .animation-bar-language {
     width: 100%;
   }
+
+  .social-media-container .twitter {
+    position: relative;
+    padding: 3em;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .social-media-container .instagram {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0.5em;
+    right: 0;
+    margin-top: 10em;
+    margin-bottom: 10em;
+  }
 }

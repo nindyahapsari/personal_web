@@ -62,7 +62,7 @@ class Projects extends Component {
               </CardBody>
             </Card>
 
-            <Card body outline="primary" className="project-card todo ">
+            <Card outline="primary" className="project-card todo ">
               <Container>
                 <CardImg
                   className="project-img"
@@ -95,7 +95,7 @@ class Projects extends Component {
               </CardBody>
             </Card>
 
-            <Card body outline="primary" className="project-card plant">
+            <Card outline="primary" className="project-card plant">
               <Container>
                 <CardImg
                   top
@@ -126,7 +126,7 @@ class Projects extends Component {
               </CardBody>
             </Card>
 
-            <Card body outline="primary" className="project-card">
+            <Card outline="primary" className="project-card">
               <Container>
                 <CardImg
                   top
@@ -157,7 +157,7 @@ class Projects extends Component {
               </CardBody>
             </Card>
 
-            <Card body outline="primary" className="project-card">
+            <Card outline="primary" className="project-card">
               <Container>
                 <CardImg
                   top
@@ -188,7 +188,7 @@ class Projects extends Component {
               </CardBody>
             </Card>
 
-            <Card body outline="primary" className="project-card">
+            <Card outline="primary" className="project-card">
               <Container>
                 <CardImg
                   className="project-img"
@@ -211,14 +211,14 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                     className="projlink"
                   >
-                    <i class="fab fa-github" id="githubProject" />
+                    <i className="fab fa-github" id="githubProject" />
                     <p className="click">click for source code</p>
                   </a>
                 </Button>
               </CardBody>
             </Card>
 
-            <Card body outline="primary" className="project-card">
+            <Card outline="primary" className="project-card">
               <Container>
                 <CardImg
                   className="project-img"
@@ -248,7 +248,7 @@ class Projects extends Component {
               </CardBody>
             </Card>
 
-            <Card body outline="primary" className="project-card">
+            <Card outline="primary" className="project-card">
               <Container>
                 <CardImg
                   className="project-img"
@@ -274,14 +274,14 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                     className="projlink"
                   >
-                    <i class="fab fa-github" id="githubProject" />
+                    <i className="fab fa-github" id="githubProject" />
                     <p className="click">click for source code</p>
                   </a>
                 </Button>
               </CardBody>
             </Card>
 
-            <Card body outline="primary" className="project-card">
+            <Card outline="primary" className="project-card">
               <Container>
                 <CardImg
                   className="project-img"
@@ -305,7 +305,7 @@ class Projects extends Component {
                     rel="noopener noreferrer"
                     className="projlink"
                   >
-                    <i class="fab fa-github" id="githubProject" />
+                    <i className="fab fa-github" id="githubProject" />
                     <p className="click">click for source code</p>
                   </a>
                 </Button>
