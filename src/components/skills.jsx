@@ -3,8 +3,6 @@ import "../css/skills.css";
 import "../css/mobile-skills.css";
 import { Container } from "reactstrap";
 import one from "../asset/aboutme/2.JPG";
-import { TwitterTimelineEmbed, TwitterFollowButton } from "react-twitter-embed";
-import InstagramEmbed from "react-instagram-embed";
 
 class Skills extends Component {
   render() {
@@ -81,36 +79,6 @@ class Skills extends Component {
               </div>
             </div>
           </div>
-
-          {/* social media */}
-          <div className="social-media-container">
-            <div className="twitter">
-              <TwitterTimelineEmbed
-                sourceType="profile"
-                screenName="nindyaturtle"
-                options={{ height: 500, autoHeight: true }}
-              />
-              <TwitterFollowButton
-                screenName="nindyaturtle"
-                options={{ size: "large" }}
-              />
-            </div>
-            <div className="instagram">
-              <InstagramEmbed
-                url="https://www.instagram.com/p/B06uxf0F7C1/"
-                maxWidth={320}
-                hideCaption={true}
-                containerTagName="div"
-                protocol=""
-                injectScript
-                onLoading={() => {}}
-                onSuccess={() => {}}
-                onAfterRender={() => {}}
-                onFailure={() => {}}
-              />
-            </div>
-          </div>
-          {/* social media */}
         </div>
       </Container>
     );

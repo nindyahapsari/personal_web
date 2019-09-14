@@ -3,7 +3,7 @@
 .container-skills {
   background-size: cover;
   /* min-height: 115vh; */
-  min-height: 300vh;
+  min-height: 200vh;
   width: 100%;
 }
 
@@ -384,20 +384,4 @@ h3 {
   50% {
     width: 50%;
   }
-}
-
-/* social media container */
-
-.social-media-container .twitter {
-  position: relative;
-  top: 50em;
-  left: 20em;
-  width: 30em;
-}
-
-.social-media-container .instagram {
-  position: relative;
-  float: right;
-  bottom: 3.5em;
-  right: 20em;
 }

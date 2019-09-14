@@ -76,30 +76,26 @@
 
 #nav-skills-btn {
   position: relative;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: black;
   padding: 35px;
-  font-family: "Karla", sans-serif;
-  font-size: 15px;
-  margin-left: 55em;
+  /* font-family: "Karla", sans-serif; */
+  font-size: 45px;
+  margin-left: 20em;
 }
 
 #nav-work-btn {
   right: 0;
-  font-weight: bold;
   color: black;
+  font-size: 40px;
   padding: 35px;
-  font-family: "Karla", sans-serif;
-  font-size: 15px;
 }
 
 #nav-cert-btn {
   position: relative;
-  font-weight: bold;
   color: black;
   padding: 35px;
-  font-family: "Karla", sans-serif;
-  font-size: 15px;
+  font-size: 40px;
 }
 
 #welcome-text {

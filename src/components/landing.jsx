@@ -79,7 +79,7 @@ class Landing extends Component {
             <div id="container-nav-menu">
               <span id="nav-home">
                 <a href="https://github.com/nindyahapsari" id="nav-skills-btn">
-                  Github
+                  <i class="fab fa-github"></i>
                 </a>
               </span>
               <span id="nav-work">
@@ -87,7 +87,7 @@ class Landing extends Component {
                   href="https://www.linkedin.com/in/nindya-hapsari-a5000a153/"
                   id="nav-work-btn"
                 >
-                  LinkedIn
+                  <i class="fab fa-linkedin"></i>
                 </a>
               </span>
               <span id="nav-certificate">
@@ -95,7 +95,7 @@ class Landing extends Component {
                   href="https://www.instagram.com/butter_scotch/"
                   id="nav-cert-btn"
                 >
-                  Instagram
+                  <i class="fab fa-instagram"></i>
                 </a>
               </span>
             </div>
