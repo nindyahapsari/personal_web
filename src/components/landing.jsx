@@ -103,7 +103,7 @@ class Landing extends Component {
 
           <div className="container-fluid" id="welcome-text">
             <h2 className="" id="hello-text">
-              Hello! I'm an aspiring software developer
+              Hello! I'm a software engineer
             </h2>
             <h2 className="" id="focus-text">
               focus on{" "}

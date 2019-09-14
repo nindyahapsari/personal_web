@@ -7,6 +7,8 @@ import bubtea from "../asset/pict_1.png";
 import landing from "../asset/landingpageScreenshot.png";
 import drum from "../asset/drum_machine.png";
 import vetclinic from "../asset/landing_page_wordpress.png";
+import resort from "../asset/resort.png";
+
 import {
   Card,
   Button,
@@ -16,7 +18,8 @@ import {
   CardColumns,
   CardSubtitle,
   CardBody,
-  Container
+  Container,
+  CardLink
 } from "reactstrap";
 import "../css/projects.css";
 
@@ -259,11 +262,45 @@ class Projects extends Component {
                   Wordpress Theme Development
                 </CardTitle>
                 <CardSubtitle>Type: Website, Wordpress Theme</CardSubtitle>
+                <CardLink href="http://nhapsari.rf.gd/?i=1">
+                  Link to Website
+                </CardLink>
                 <CardText />
 
                 <Button outline color="secondary" className="btnproj">
                   <a
                     href="https://github.com/nindyahapsari/vet-clinic"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projlink"
+                  >
+                    <i class="fab fa-github" id="githubProject" />
+                    <p className="click">click for source code</p>
+                  </a>
+                </Button>
+              </CardBody>
+            </Card>
+
+            <Card body outline="primary" className="project-card">
+              <Container>
+                <CardImg
+                  className="project-img"
+                  id="resort"
+                  src={resort}
+                  alt="Hotel Resort"
+                />
+              </Container>
+              <CardBody className="project-text">
+                <CardTitle className="projtitle">Beach Hotel Resort</CardTitle>
+                <CardSubtitle>Type: Website, React</CardSubtitle>
+                <CardLink href="https://beachhotel.netlify.com/">
+                  Link to Website
+                </CardLink>
+                <CardText />
+
+                <Button outline color="secondary" className="btnproj">
+                  <a
+                    href="https://github.com/nindyahapsari/Resort"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="projlink"

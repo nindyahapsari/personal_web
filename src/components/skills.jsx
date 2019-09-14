@@ -3,6 +3,18 @@ import "../css/skills.css";
 import "../css/mobile-skills.css";
 import { Container } from "reactstrap";
 import one from "../asset/aboutme/2.JPG";
+import {
+  TwitterTimelineEmbed,
+  TwitterShareButton,
+  TwitterFollowButton,
+  TwitterHashtagButton,
+  TwitterMentionButton,
+  TwitterTweetEmbed,
+  TwitterMomentShare,
+  TwitterDMButton,
+  TwitterVideoEmbed,
+  TwitterOnAirButton
+} from "react-twitter-embed";
 
 class Skills extends Component {
   render() {
@@ -17,7 +29,7 @@ class Skills extends Component {
             <h2 className="abouthead">Hi There!</h2>
             <p className="abouttxtfirst">
               I’m Nindya (neen-dee-yeaa). Sometimes people call me “nin” :D I’m
-              a passionate Frontend developer living in Cologne, Germany.
+              a Frontend developer living in Cologne, Germany.
             </p>
             <p className="abouttxtsecond">
               coming from technical background, i quickly jump into web
@@ -79,6 +91,23 @@ class Skills extends Component {
               </div>
             </div>
           </div>
+
+          {/* social media */}
+          <div className="social-media-container">
+            <div className="twitter">
+              <TwitterTimelineEmbed
+                sourceType="profile"
+                screenName="nindyaturtle"
+                options={{ height: 400, autoHeight: true }}
+              />
+              <TwitterFollowButton
+                screenName="nindyaturtle"
+                options={{ size: "large" }}
+              />
+            </div>
+            <div className="instagram"></div>
+          </div>
+          {/* social media */}
         </div>
       </Container>
     );
